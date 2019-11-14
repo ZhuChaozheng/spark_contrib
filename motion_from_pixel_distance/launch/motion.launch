@@ -1,3 +1,6 @@
 <launch>
 	<node pkg="motion_from_pixel_distance" type="motion.py" name="motion" output="screen"/>
+        <include file="$(find spark_base)/launch/spark_base.launch">
+                <arg name="serialport"                  value="/dev/sparkBase"/>
+        </include>
 </launch>
