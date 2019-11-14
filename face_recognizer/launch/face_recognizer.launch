@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="face_recognizer" type="face_recognizer" name="face_recognizer" output="screen">
+    <param name="haarcascade_frontface" value="$(find face_recognizer)/data/haar_face.xml" />
+    <param name="csv" value="$(find face_recognizer)/data/csv.yaml" />
+  </node>
+</launch>
