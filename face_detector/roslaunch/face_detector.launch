@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="face_detector" type="facedetect.py" name="face_detector" output="screen">
+    <param name="haar_face_path" value="$(find face_detector)/data/haarcascades/haarcascade_frontalface_alt.xml" />
+  </node>
+</launch>
