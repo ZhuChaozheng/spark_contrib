@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: face_recognizer
-Description: Description of face_recognizer
-Version: 0.0.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 

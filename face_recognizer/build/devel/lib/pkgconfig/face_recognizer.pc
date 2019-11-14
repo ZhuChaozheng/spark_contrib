@@ -1,8 +1,0 @@
-prefix=/home/jason/catkin_ws/src/face_recognizer/build/devel
-
-Name: face_recognizer
-Description: Description of face_recognizer
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/jason/catkin_ws/src/face_recognizer/build/devel/lib 
-Requires: 
